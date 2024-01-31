@@ -84,9 +84,9 @@ Private Sub UserForm_Initialize()
         TextBoxHandler.New_(TextBoxLRightOffsetY, TextBoxTypeDouble, 0)
         
     Set MainWidth = _
-        TextBoxHandler.New_(TextBoxMainWidth, TextBoxTypeDouble, 0)
+        TextBoxHandler.New_(TextBoxMainWidth, TextBoxTypeDouble, 0.0001)
     Set MainHeight = _
-        TextBoxHandler.New_(TextBoxMainHeight, TextBoxTypeDouble, 0)
+        TextBoxHandler.New_(TextBoxMainHeight, TextBoxTypeDouble, 0.0001)
 End Sub
 
 Private Sub UserForm_Activate()
