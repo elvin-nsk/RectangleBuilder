@@ -9,7 +9,7 @@ Attribute VB_Name = "RectangleBuilder"
 
 Option Explicit
 
-Public Const RELEASE As Boolean = True
+Public Const RELEASE As Boolean = False
 
 Public Const APP_NAME As String = "RectangleBuilder"
 
@@ -92,7 +92,7 @@ Private Sub TryCreateAndTrim( _
     Dim TrimShape As Shape
     Set TrimShape = _
             CreateAjacentRectangle( _
-                MainShape, UpperLeft, _
+                MainShape, Corner, _
                 Width, Height, _
                 OffsetX, OffsetY _
             )
