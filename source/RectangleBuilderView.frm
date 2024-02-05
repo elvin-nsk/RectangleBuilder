@@ -90,7 +90,11 @@ Private Sub UserForm_Initialize()
 End Sub
 
 Private Sub UserForm_Activate()
-    '
+    With TextBoxMainWidth
+        .SetFocus
+        .SelStart = 0
+        .SelLength = VBA.Len(TextBoxMainWidth.Value)
+    End With
 End Sub
 
 Private Sub btnOk_Click()

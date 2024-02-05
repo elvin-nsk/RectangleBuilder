@@ -1,7 +1,7 @@
 Attribute VB_Name = "RectangleBuilder"
 '===============================================================================
 '   Макрос          : RectangleBuilder
-'   Версия          : 2024.01.31
+'   Версия          : 2024.02.05
 '   Сайты           : https://vk.com/elvin_macro
 '                     https://github.com/elvin-nsk
 '   Автор           : elvin-nsk (me@elvin.nsk.ru)
@@ -9,7 +9,7 @@ Attribute VB_Name = "RectangleBuilder"
 
 Option Explicit
 
-Public Const RELEASE As Boolean = False
+Public Const RELEASE As Boolean = True
 
 Public Const APP_NAME As String = "RectangleBuilder"
 
